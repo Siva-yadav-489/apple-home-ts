@@ -1,0 +1,26 @@
+@import "./fonts.css";
+@import "tailwindcss";
+
+@theme {
+  --font-SFthin: "SF-Pro-Thin", "sans-serif";
+  --font-SFultralight: "SF-Pro-Ultralight", "sans-serif";
+  --font-SFlight: "SF-Pro-Light", "sans-serif";
+  --font-SFregular: "SF-Pro-Regular", "sans-serif";
+  --font-SFmedium: "SF-Pro-Medium", "sans-serif";
+  --font-SFsemibold: "SF-Pro-Semibold", "sans-serif";
+  --font-SFbold: "SF-Pro-Bold", "sans-serif";
+  --font-SFblack: "SF-Pro-Black", "sans-serif";
+  --font-SFheavy: "SF-Pro-Heavy", "sans-serif";
+}
+
+@layer utilities {
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+}
