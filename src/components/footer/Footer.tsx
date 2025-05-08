@@ -2,7 +2,7 @@ import FootLinkList from "./FootLinkList";
 
 const Footer = () => {
   return (
-    <div className="max-lg:mx-5 pb-10 mx-auto max-w-[980px]">
+    <div className="max-lg:mx-10 max-sm:mx-5 mx-auto lg:max-w-5/6 pb-10">
       <p className="text-xs text-[#6e6e73] mt-5">
         ∆ Apple Intelligence is available in beta on all iPhone 16 models,
         iPhone 15 Pro, iPhone 15 Pro Max, iPad mini (A17 Pro), and iPad and Mac
@@ -131,7 +131,7 @@ const Footer = () => {
           Apple Store Online
         </p>
       </div>
-      <div className="flex justify-between my-5 max-md:flex-wrap">
+      <div className="flex max-md:flex-col justify-between my-5 max-md:flex-wrap">
         <div>
           <FootLinkList
             title={"Shop and Learn"}
@@ -239,7 +239,7 @@ const Footer = () => {
         </a>
         near you. Or call 000800 040 1966.
       </p>
-      <hr className="text-gray-300 my-5" />
+      <hr className="text-gray-300 my-5 max-md:hidden" />
       <div className="flex justify-between max-md:flex-wrap">
         <div className="flex max-md:flex-wrap">
           <p className="text-[0.8rem] font-SFlight text-[#6e6e73] tracking-wider">

@@ -1,7 +1,7 @@
 const Header = () => {
   return (
-    <div className="flex items-center justify-center py-4 bg-white max-lg:px-11">
-      <p className="text-center text-sm font-SFlight bg-white text-[#000c]  tracking-wider py-1">
+    <div className="flex items-center justify-center py-4 bg-white max-sm:px-2 max-lg:px-11">
+      <p className="text-center text-sm font-SFlight bg-white text-[#000]  tracking-wider py-1">
         Get up to 12 months of No Cost EMI
         <sup className="text-[0.5rem]">§</sup> plus up to ₹8000.00 instant
         cashback

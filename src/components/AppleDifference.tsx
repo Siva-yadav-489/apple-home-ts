@@ -56,15 +56,17 @@ const AppleDifference = () => {
     },
   ];
   return (
-    <div className="max-lg:mx-5 ms-36 pb-10">
-      <Headings
-        text={[
-          "The Apple Store difference.",
-          "  Even more reasons to shop with us.",
-        ]}
-        textColor={"text-[#ff3c26]"}
-      />
-      <div className="flex space-x-5  overflow-x-scroll no-scrollbar mt-5 py-1 pb-10">
+    <div className="pb-10">
+      <div className="mx-auto max-sm:mx-5 max-lg:mx-10 lg:max-w-5/6">
+        <Headings
+          text={[
+            "The Apple Store difference.",
+            "  Even more reasons to shop with us.",
+          ]}
+          textColor={"text-[#ff3c26]"}
+        />
+      </div>
+      <div className="flex space-x-5 max-w-screen pr-5 lg:pl-28 xl:pl-36 max-sm:px-5 max-lg:px-10 overflow-x-scroll no-scrollbar mt-5 py-1 pb-10">
         {cards.map((card, index) => {
           return (
             <div

@@ -1,46 +1,48 @@
+import HeroProducts from "./HeroProducts";
+
 const Hero = () => {
-  const images = [
-    {
-      link: "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-mac-nav-202503?wid=400&hei=260&fmt=png-alpha&.v=1739502780055",
-      name: "Mac",
-    },
-    {
-      link: "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-iphone-nav-202502?wid=400&hei=260&fmt=png-alpha&.v=1738706422726",
-      name: "iPhone",
-    },
-    {
-      link: "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-ipad-nav-202405?wid=400&hei=260&fmt=png-alpha&.v=1714168620875",
-      name: "iPad",
-    },
-    {
-      link: "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-watch-nav-202409?wid=400&hei=260&fmt=png-alpha&.v=1724165625838",
-      name: "Apple Watch",
-    },
-    {
-      link: "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-airpods-nav-202409?wid=400&hei=260&fmt=png-alpha&.v=1722974349822",
-      name: "AirPods",
-    },
-    {
-      link: "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-airtags-nav-202108?wid=400&hei=260&fmt=png-alpha&.v=1625783380000",
-      name: "AirTag",
-    },
-    {
-      link: "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-appletv-nav-202210?wid=400&hei=260&fmt=png-alpha&.v=1664628458484",
-      name: "Apple TV 4K",
-    },
-    {
-      link: "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-homepod-nav-202301?wid=400&hei=260&fmt=png-alpha&.v=1670389216654",
-      name: "HomePod",
-    },
-    {
-      link: "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-accessories-nav-202503?wid=400&hei=260&fmt=png-alpha&.v=1739502322543",
-      name: "Accessories",
-    },
-  ];
+  // const images = [
+  //   {
+  //     link: "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-mac-nav-202503?wid=400&hei=260&fmt=png-alpha&.v=1739502780055",
+  //     name: "Mac",
+  //   },
+  //   {
+  //     link: "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-iphone-nav-202502?wid=400&hei=260&fmt=png-alpha&.v=1738706422726",
+  //     name: "iPhone",
+  //   },
+  //   {
+  //     link: "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-ipad-nav-202405?wid=400&hei=260&fmt=png-alpha&.v=1714168620875",
+  //     name: "iPad",
+  //   },
+  //   {
+  //     link: "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-watch-nav-202409?wid=400&hei=260&fmt=png-alpha&.v=1724165625838",
+  //     name: "Apple Watch",
+  //   },
+  //   {
+  //     link: "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-airpods-nav-202409?wid=400&hei=260&fmt=png-alpha&.v=1722974349822",
+  //     name: "AirPods",
+  //   },
+  //   {
+  //     link: "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-airtags-nav-202108?wid=400&hei=260&fmt=png-alpha&.v=1625783380000",
+  //     name: "AirTag",
+  //   },
+  //   {
+  //     link: "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-appletv-nav-202210?wid=400&hei=260&fmt=png-alpha&.v=1664628458484",
+  //     name: "Apple TV 4K",
+  //   },
+  //   {
+  //     link: "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-homepod-nav-202301?wid=400&hei=260&fmt=png-alpha&.v=1670389216654",
+  //     name: "HomePod",
+  //   },
+  //   {
+  //     link: "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-13-accessories-nav-202503?wid=400&hei=260&fmt=png-alpha&.v=1739502322543",
+  //     name: "Accessories",
+  //   },
+  // ];
   return (
-    <div className="max-lg:mx-5 mx-36 mb-16">
-      <div className="flex justify-between items-center pt-20 pb-16 max-lg:pb-4 max-lg:flex-col max-lg:items-start">
-        <p className="text-5xl max-lg:text-4xl font-SFsemibold text-[#6e6e73] max-lg:mb-4">
+    <div className="mb-11">
+      <div className="mx-auto max-sm:mx-5 max-lg:mx-10 lg:max-w-5/6 flex justify-between items-center py-14 md:py-20  max-md:pb-4 max-md:flex-col max-md:items-start">
+        <p className="text-5xl max-md:text-3xl font-SFsemibold text-[#6e6e73] max-md:mb-4">
           <span className="text-[#1d1d1f]">Store. </span> The best way to buy
           the&nbsp;
           <span className="md:block">products you love.</span>
@@ -107,7 +109,8 @@ const Hero = () => {
         </div>
       </div>
       {/* products */}
-      <div className="flex justify-between pr-32 mr-5 pt-8 pb-10 max-lg:overflow-x-scroll no-scrollbar max-lg:pr-0 max-lg:mr-0">
+      <HeroProducts />
+      {/* <div className="flex justify-between pt-8 pb-10 overflow-x-scroll no-scrollbar max-lg:pr-0 max-lg:mr-0">
         {images.map((item, index) => {
           return (
             <div key={index} className="flex flex-col items-center max-lg:px-5">
@@ -124,7 +127,7 @@ const Hero = () => {
             </div>
           );
         })}
-      </div>
+      </div> */}
     </div>
   );
 };

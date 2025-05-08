@@ -1,8 +1,10 @@
 const QuickLinks = () => {
   return (
-    <div className="max-lg:mx-5 ms-36 pb-10">
-      <p className="text-3xl font-SFsemibold mb-5">Quick Links</p>
-      <div className="flex max-md:overflow-x-scroll no-scrollbar">
+    <div className="pb-10">
+      <p className="mx-auto max-lg:mx-10 max-sm:mx-5 lg:max-w-5/6 text-3xl font-SFsemibold mb-5">
+        Quick Links
+      </p>
+      <div className="flex max-w-screen pr-5 lg:pl-28 xl:pl-36 max-sm:px-5 max-lg:px-10 max-md:overflow-x-scroll no-scrollbar">
         <button className="border border-black rounded-full py-2 px-4 mr-3 text-nowrap font-SFlight text-sm flex items-center">
           Find a Store{" "}
           <span>
